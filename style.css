@@ -1,3 +1,73 @@
+
 #main-temp{
-    font-size: 10rem;
+    font-size: 13rem;
+}
+#icon{
+    width: 150px; 
+    height: 80px;
+}
+.FCicon{
+    margin-bottom: 1rem;
+}
+.FCcard{
+  background-color: #e1e1cf;
+  border-radius: 2rem;
+}
+#suggestion-list{
+    border: 1px solid black;
+}
+#suggestion-list li{
+    list-style-type:none;
+}
+
+#placeInput{
+    border-radius: 15px 0 0 15px;
+}
+#Search-button{
+    border-radius: 0 15px 15px 0;
+}
+
+.results {
+    padding: 0px;
+    
+  }
+  
+  .results ul {margin: 0; padding: 0; }
+  .results ul li {
+    list-style: none;
+    border-radius: 3px;
+    opacity: 0;
+    display: none;
+    padding: 8px 12px;
+    transition: all .5s linear;
+  }
+  
+  .show .results ul li {
+    opacity: 1;
+    display: block;
+  }
+  
+  .show .results {
+    padding: 43px 0 5px 0;
+    background-color: rgba(103, 103, 103, 0.594);
+  }
+  
+  .results ul li:hover {
+    background: #ececec
+  }
+.mSection{
+  background-color: #d3cfc1;
+  border-radius: 2rem;
+}
+hr{
+  background-color: #fffffe;
+  height: 0.5rem;
+  border-radius: 1rem;
+  border-top: 0 !important;
+  /* outline: black solid 1px; */
+}
+#icon-grid{
+  background-color: #d3cfc1;
+  border-radius: 2rem;
+
 }
